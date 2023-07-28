@@ -1,0 +1,10 @@
+Algorithme somme
+Variables 
+    premierNombre, deuxiemeNombre : Réel
+Debut 
+    Ecrire ("Entrer le premier nombre: ")
+	Lire (premierNombre)
+	Ecrire ("Entrer le deuxieme nombre: ")
+	Lire (deuxiemeNombre)
+    Ecrire ("La somme de deux nombre est:", premierNombre+deuxiemeNombre)
+Fin
