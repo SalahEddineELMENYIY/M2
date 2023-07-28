@@ -1,0 +1,23 @@
+Algo Exercice 9
+
+Variables numList[7], smallestNumber : float
+          index : int
+
+
+Begin
+
+    for i in range(0,7)
+    do
+        Write('Insert number: ')
+        read(numList[i])
+
+        if(i = 0) then
+            smallestNumber = numList[i]
+        end if
+
+        if(i > 0 And numList[i] <= numList[i-1]) then
+            smallestNumber = numList[i]
+        end if
+    end for
+
+end

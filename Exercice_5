@@ -1,7 +1,7 @@
 Initialize number N;
 Initialize result 1;
 While N is more than or equal to 1
-    multiply result by N;
-    substract N by 1;
+    Multiply result by N;
+    Substract N by 1;
 End While
-print result
+Print result
