@@ -1,0 +1,15 @@
+Algo: Exercice 3
+
+Variables num: int
+
+Begin
+    write('Insert the number: ');
+    read(num);
+
+    if(num%2 == 0) then
+        write('Number is even')
+    else
+        write('Number is Odd')
+    end If
+
+end
