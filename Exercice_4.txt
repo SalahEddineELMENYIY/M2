@@ -1,0 +1,19 @@
+variables:
+	num1 : entier
+	num2 : entier
+	num3 : entier
+	MaxNum : entier
+
+read (num1,num2,num3)
+
+MaxNum = num1
+
+if num2> MaxNum
+	then 
+		MaxNum = num2
+if num3 > MaxNum
+	then 
+		MaxNum =num3
+write ("the maximum is : " + MaxNum)
+
+end

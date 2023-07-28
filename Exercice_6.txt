@@ -1,0 +1,15 @@
+age : entier
+
+write ("entrer votre age")
+
+read age
+
+if age >= 18:
+
+write ("yes")
+
+else:
+
+write ("no")
+
+end
