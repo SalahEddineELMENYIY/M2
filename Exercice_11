@@ -1,0 +1,14 @@
+Write an algorithm that requires entering an array T of 10 integers, and putting the even elements in an array T1 and the odd elements in an array T2. Then display T1 and T2.
+
+Initialize array T
+Initialize empty array T1
+Initialize empty array T2
+
+for every element in T :
+    if element is even :
+        append element to T1
+    else :
+        append element to T2
+    endif 
+
+print T1 and T2

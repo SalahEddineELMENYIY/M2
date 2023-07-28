@@ -1,0 +1,19 @@
+Algo: Exercice_7
+
+Variables sentence: string
+            i,word : int
+Begin   
+    word = 0
+    write('enter the sentences: ')
+    read(sentence)
+
+    for i in lenth(sentence)-1
+
+        if(sentence[i] == ' ')
+            word = word+1
+        endif
+
+    end for
+
+    write(word)
+end
