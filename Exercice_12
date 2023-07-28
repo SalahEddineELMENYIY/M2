@@ -1,0 +1,9 @@
+Algorithme table8
+    Variables:
+    i : integer
+Debut 
+    i = 1
+	Repeter 
+        Write (i ,"* 8 = ", 8*i)
+    Jusqu'a ( i > 8)
+Fin
