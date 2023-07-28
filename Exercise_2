@@ -1,0 +1,13 @@
+Algorithme somme
+Variables 
+    premierNombre, deuxiemeNombre, troisiemeNombre, resultat : Réel
+Debut 
+    Ecrire ("Entrer le premier nombre: ")
+	Lire (premierNombre)
+	Ecrire ("Entrer le deuxieme nombre: ")
+	Lire (deuxiemeNombre)
+	Ecrire ("Entrer le troisieme nombre: ")
+	Lire (troisiemeNombre)
+    resultat = (premierNombre+deuxiemeNombre+troisiemeNombre)/3
+    Ecrire ("La moyenne des nombres est:", resultat)
+Fin
