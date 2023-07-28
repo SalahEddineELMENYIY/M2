@@ -1,18 +1,19 @@
-Algorithme status
-Variables 
-    nombre[10], n, m : integer
-Debut 
-    Ecrire('Saisie 10 nombre: ')
-	Pour i allant de 0 a 9
-        Lire (nombre[i])
-    FinPour
-	Ecrire('Saisie le nombre: ')
-    Lire (n)
-    m = 0
-	Pour i allant de 0 a 9
-        Si (nombre[i] = n) alors
-            m = m + 1
-        Finsi
-    FinPour
-	Ecrire('le nombre d'occurrences est: ',m)
-Fin
+Algo: Exercice_7
+
+Variables sentence: string
+            i,word : int
+Begin   
+    word = 0
+    write('enter the sentences: ')
+    read(sentence)
+
+    for i in lenth(sentence)-1
+
+        if(sentence[i] == ' ')
+            word = word+1
+        endif
+
+    end for
+
+    write(word)
+end
