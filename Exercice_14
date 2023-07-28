@@ -1,10 +1,18 @@
-Algorithme somme
+Algorithme status
 Variables 
-    premierNombre, deuxiemeNombre : Réel
+    m, n : Réel
 Debut 
     Ecrire ("Entrer le premier nombre: ")
-	Lire (premierNombre)
+	Lire (m)
 	Ecrire ("Entrer le deuxieme nombre: ")
-	Lire (deuxiemeNombre)
-    Ecrire ("La somme de deux nombre est:", premierNombre+deuxiemeNombre)
+	Lire (n)
+    Si (n = 0 | m = 0) alors
+        Ecrire ("La multiplicatoin de deux nombre egale a 0") 
+    sinon 
+        si ((n < 0 & m > 0 )|(n > 0 & m < 0 )) alors
+            Ecrire ("La multiplicatoin de deux nombre est negative")
+        sinon 
+            Ecrire ("La multiplicatoin de deux nombre est positive")
+        finsi
+    finsi
 Fin
