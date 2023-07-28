@@ -1,0 +1,16 @@
+A shop offers these customers a 15% reduction for purchase amounts over 200 dh. Write an algorithm to enter the total price excluding tax and calculate the amount including tax taking into account the reduction and VAT=20%.
+
+
+Initialize price;
+Initialize priceVAT to 0;
+Initialize reduction to 15%
+Initialize VAT to 20%
+
+set priceVAT to price plus price*VAT
+
+if priceVAT is more than 200
+    substract priceVAT by priceVAT*reduction
+
+print priceVAT
+
+
