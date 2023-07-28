@@ -1,0 +1,18 @@
+initialiser_liste
+
+sumPositive : entier
+
+
+sumPositive = 0
+
+
+Read initialiser_liste
+
+
+for number in []
+   
+    if number > 0:
+        
+        sumPositive = sumPositive + number
+
+write ("The sum of positive numbers is: ", sumPositive)
